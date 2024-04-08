@@ -1,2 +1,2 @@
-# codidharma.github.io
-Repository for my hugo tech blog
+# tech-blog
+Repository for my tech blog
