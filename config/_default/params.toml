@@ -111,22 +111,15 @@ languageMenuName = "🌐"
 # numberOfFeaturedPosts = 8
 
 # Pin featured posts in list.
-# pinFeatured = true
+pinFeatured = true
 
 # Maximum number of pinned featured posts. (default: 8)
-# numberOfPinnedPosts = 8
+numberOfPinnedPosts = 8
 
-# Date format. Checkout https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for details.
-# dateFormat = "2006-01-02" # Default to "Jan 2, 2006".
-# customFonts = false # toggle to true if you want to use custom fonts only.
-
-# The year when ths website was created, this value is used in the copyright
-# notice of the footer.
-# since = 2016
 
 # Show related content at the end of an article based on the 'series' taxonomy. Can be set in post front matter.
 showRelatedInArticle = true
-showRelatedInSidebar = false
+showRelatedInSidebar = true
 
 # website author
 [author]
@@ -170,51 +163,4 @@ bannerLocation = "images/about/banner.jpg"
 
 [talks]
 bannerLocation = "images/talks/banner.jpg"
-
-#Newsletter integration with tinyletter
-[tinyletter]
-username = "codidharma"
-
-[subscribe.secondary]
-heading = "Codidharma's Weekly Newsletter"
-message = "Subscribe to cultivate serenity in your code"
-
-[newsletter.intro]
-  image = "/images/WelcomeImage.png"
-  title = "Unveil the Serenity of Software Engineering!"
-  content = """ A weekly newsletter to unveil the secrets of harmonious software architecture, development, and engineering. Subscribe to cultivate serenity in your code"""
-
-[newsletter.techstack]
-enable = true
-
-
-  [[newsletter.techstack.items]]
-    title = "Serverless Computing"
-    image="/images/tech/serverless.svg"
-
-  [[newsletter.techstack.items]]
-    title = "Software Architecture"
-    image="/images/tech/softwarearch.svg"
-
-  [[newsletter.techstack.items]]
-    title = "Engineering Management"
-    image="/images/tech/engmanager.svg"
-
-  [[newsletter.techstack.items]]
-    title = "Python"
-    image="/images/tech/python.svg"
-
-  [[newsletter.techstack.items]]
-    title = ".NET Core Platform"
-    image="/images/tech/netcore.svg"
-
-[newsletter.recentIssues]
-  enable = true
-  folder="posts"
-  maxCountToShow = 5
-  title = "Recent Newsletter issues"
-  action="Read More"
-  postUrl= "posts"
-  morepostsText = "Explore other newsletter issues"
-
 
