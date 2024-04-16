@@ -1,0 +1,62 @@
+---
+title: "Portfolio"
+layout: "portfolio"
+
+---
+
+<h2 align="center">Hi 👋, I'm Mandar Dharmadhikari</h1>
+<h3 align="center">Cloud Solution Architect and Backend Software Engineer</h3>
+
+<div class="flex ">
+  <img style="width:1000%" src="./portfolioimage.jpeg">
+</div>
+
+I am an experienced pro-code and low-code cloud solutions architect with more than a decade of expertise in building lines of business services and systems integration across insurance and banking verticals. I am a technology nerd with a penchant for public speaking. I enjoy marrying business needs with appropriate technologies to deliver business value. I also enjoy mentoring colleagues and have managed small and medium-sized teams.
+
+<h3 align="center">I enjoy</h3>
+
+* Doing Test Driven Development
+* Public speaking
+* Reading about Software Design and Architecture
+
+<h3 align="center">Technologies I use</h3>
+
+<p>
+  <img src="/images/portfolio/csharp.svg" width="100" height="100" />
+  &nbsp;
+  <img src="/images/portfolio/python.svg" width="100" height="100" />
+  &nbsp;
+  <img src="/images/portfolio/mssql.svg" width="100" height="100" />
+  &nbsp;
+  <img src="/images/portfolio/azure.svg" width="100" height="100" />
+  &nbsp;
+  <img src="/images/portfolio/dotnet.svg" width="100" height="100" />
+  &nbsp;
+  <img src="/images/portfolio/git.svg" width="100" height="100" />
+</p>
+
+<h3 align="center">Technologies I am learning</h3>
+<p>
+  <img src="/images/portfolio/rust.svg" width="100" height="100" />
+  &nbsp;
+  <img src="/images/portfolio/postgres.svg" width="100" height="100" />
+  &nbsp;
+  <img src="/images/portfolio/redis.svg" width="100" height="100" />
+</p>
+
+<h3 align="center">My GITHUB Stats</h3>
+
+<p>
+  <img align="center" height="1100em" src="https://github-readme-stats.vercel.app/api?username=codidharma&show_icons=true&locale=en&theme=" />
+  &nbsp;
+  <img align="center" height="1100em" src="https://github-readme-streak-stats.herokuapp.com/?user=codidharma&theme=" />
+</p>
+
+<h3 align="center">My Leetcode Stats</h3>
+<p>
+  <img align="center" height="1100em" src="https://leetcard.jacoblin.cool/codidharma?theme=light&font=Noto%20Sans%20Lisu" />
+</p>
+
+<h3 align="center">My Clifton 34 Report</h3>
+<img align="center" height="1100em" src="/images/portfolio/clifton34.png" />
+<a href="https://www.gallup.com/cliftonstrengths/en/253715/34-cliftonstrengths-themes.aspx" target="_blank" rel="nofollow">Read about Clifton 34 themes</a>

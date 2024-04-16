@@ -158,8 +158,8 @@ lang = "en"
   url="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
 
 
-[about]
-bannerLocation = "images/about/banner.jpg"
+[portfolio]
+bannerLocation = "images/about/portfolioimage.jpeg"
 
 [talks]
 bannerLocation = "images/talks/banner.jpg"
