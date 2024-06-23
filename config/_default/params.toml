@@ -1,166 +1,111 @@
-# enable search
-enableSearch = true
+#################### default parameters ################################
+# favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
+favicon = "images/Designer.jpeg"
+# logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
+logo = "images/logo.png"
+logo_darkmode = "images/logo-darkmode.png"
+# use `px` or `x` with logo_width, example: "100px".
+# Note: logo_width is not work with .svg file
+logo_width = "160px"
+logo_height = "32px"
+# if logo_webp set false, will not generate WEBP version of logo | default is true
+logo_webp = true
+# logo text will only show when logo is missing.
+logo_text = "Hugoplate"
+# navbar fixed to top
+navbar_fixed = true
+# theme-mode
+theme_switcher = true
+theme_default = "system" # available options [light/dark/system]
+# Main Sections
+mainSections = ["blog"]
+# contact form action
+contact_form_action = "https://airform.io/azcert101@gmail.com" # contact form works with [https://airform.io/] or [https://formspree.io]
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "" # example: G-XXXXXXXXXX
+google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
+custom_script = ""
+# copyright
+copyright = "CODIDHARMA - SOFTWARE ARCHITECTURE & DESIGN. All Rights Reserved"
 
-# socials
-twitter = "@janedoe"
-largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
+# Preloader
+# preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
 
-#introDescription = "Experienced pro-code and low-code cloud solutions architect with more than a decade of expertise in building lines of business services and systems integration across insurance and banking verticals. Technology Nerd with a penchant for public speaking."
-introURL = false # set the url for the 'read more' button below the introDescription, or set to false to not show the button
-# description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
-# keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+# Navigation button
+[navigation_button]
+enable = false
+label = "get a quote"
+link = "contact"
 
-# showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
+# search
+# search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
+[search]
+enable = false
+primary_color = "#121212"
+include_sections = ["blog"]
+show_image = true
+show_description = true
+show_tags = true
+show_categories = true
 
-# Google analytics Id
-ga_analytics = "G-E157N1JNPM"
+# announcement
+# announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
+[announcement]
+enable = false
+expire_days = 7
+content = "You must replace the **baseURL** in **hugo.toml** file when deploying, you can manage this announcement from the **params.toml** file."
 
-# limit the number of taxonomies links shown on the sidebar of each page by default.
-numberOfTagsShown = 14 # Applies for all other default & custom taxonomies. e.g categories, brands see https://gohugo.io/content-management/taxonomies#what-is-a-taxonomy
-
-# Whether to default to storing images and other assets in the `static` directory, or use Hugo page bundles.
-# Switch to `true` if you'd like to group assets with the post itself (as a "leaf bundle").
-# This can be overridden at the page level; what is set below acts as the default if no page variable is set.
-# Details on page bundles: https://gohugo.io/content-management/page-bundles/#leaf-bundles
-usePageBundles = false
-
-# Path variables
-#
-# By default, each of these directories are children of the `static` directory.
-#
-# In some Apache server installs, these directory names could conflict and you
-# may want to change them. See:
-# https://github.com/chipzoller/hugo-clarity/issues/74
-#
-# If you change the names of these directories, be sure to copy the contents of
-# the originals to get the files included with Hugo Clarity.
-#
-# Images:
-imagesDir = "images/" # without a leading forward slash
-# Icons:
-iconsDir = "icons/" # without a leading forward slash
-# Fonts:
-fontsDir = "fonts/" # without a leading forward slash
-
-# Social media sharing image: Will be used on Twitter, Facebook, LinkedIn, etc.
-# when a given page has no other image present.
-fallBackOgImage = "images/thumbnail.png"
-
-# Logo image
-logo = "logos/2.png"
-
-# center logo on navbar
-centerLogo = false # Set to "true" for centering or "false" for left aligned.
-
-# sets the maximum number of lines per codeblock. The codeblock will however be scrollable and expandable.
-codeMaxLines = 7
-
-# disable showing line numbers by default. Switch to `true` if you'd rather have them on.
-codeLineNumbers = false
-
-# enable math notation. Switch to `true` to enable mathjax in your site.
-enableMathNotation = false
-
-# directory(s) where your articles are located
-mainSections = ['posts', 'courses'] # see config details here https://gohugo.io/functions/where/#mainsections
-
-# Label Non inline images on an article body
-figurePositionShow = false # toggle on or off globally
-# you can toggle this behaviour on or off on per page using the same variable inside your articles frontmatter
-figurePositionLabel = "Figure" # the text before image number e.g Figure 1.0
-
-# Set the collapsed mobile navigation to either appear from the left or the right
-mobileNavigation = "left" # if you prefer right change to 'right'
-
-# some site owners want to decide how they would like their sites to be introduced users. These settings give you as a site owner to decide how the user will view your site for the first time.
-
-# please note that you cannot enforce both modes at the same time. i.e by enforcing one mode, you priotise it over the other (by setting it to true). enforceDarkMode will be commented out
-
-# please also not that mode toggle UI will remain in place. That way, if a user prefers darkmode, they can have their way.
-
-#enforceLightMode = false
- enforceDarkMode = true
-
-# customize footer icon. see issue https://github.com/chipzoller/hugo-clarity/issues/77
-# footerLogo = "icons/copy.svg"
-
- #Customize Sidebar Disclaimer Text
- sidebardisclaimer = true
- disclaimerText = "The opinions expressed on this site are my own personal opinions and do not represent my employer’s view in any way."
-
-# Text for the languages menu.
-languageMenuName = "🌐"
-
-# Title separator, default to |.
-# titleSeparator = "|"
-
-# Enable or disable comments globally. Default to true.
-# comments = false
-
-# Enable or disable Utterances (https://github.com/utterance/utterances) Github Issue-Based Commenting
-# utterances = true  #Run the utterances script in the single.html layout to load https://utteranc.es comments
-# utterancesRepo = "GHUsername/Repository.Name" # Utterances is enabled when this param is set
-# utterancesTheme = "github-light" # Default: github-dark
-# utterancesIssueTerm = "pathname" # Default: pathname
-
-# Maximum number of recent posts. (default: 8)
- numberOfRecentPosts = 0
- showRecentInSidebar = false
-
-# Maximum number of featured posts. (default: 8)
-# numberOfFeaturedPosts = 8
-
-# Pin featured posts in list.
-pinFeatured = true
-
-# Maximum number of pinned featured posts. (default: 8)
-numberOfPinnedPosts = 8
+# seo meta data for OpenGraph / Twitter Card
+# seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
+[metadata]
+keywords = ["Boilerplate", "Hugo"]
+description = "Hugo & Tailwindcss Starter"
+author = "Codidharma"
+image = "images/Designer.jpeg"
 
 
-# Show related content at the end of an article based on the 'series' taxonomy. Can be set in post front matter.
-showRelatedInArticle = true
-showRelatedInSidebar = false
+# site verifications
+# verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications
+[site_verification]
+google = ""   # Your verification code
+bing = ""     # Your verification code
+baidu = ""    # Your verification code
+facebook = "" # Your verification code
+mastodon = "" # Your verification code
 
-# website author
-[author]
-name = "Mandar Dharmadhikari"
-#photo = "images/mandar.jpg" #include this if you would like to show the author photo on the sidebar
+# cookies
+# cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
+[cookies]
+enable = true
+expire_days = 60
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
 
-[plausible_analytics]
-enable = false # to enable plausible analytics set to true.
-websiteDomain = "example.com" # domain name of your website, most cases same as your base url
-# plausibleDomain = "plausible.io" # default is set to plausible.io, only required if plausible is selfhosted
-# scritpName = "plausible" # default is set to plausible, only required if using a custome name for script
+# diagrams
+[mermaid]
+js_url = 'https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs'
 
-[matomo_analytics]
-enable = false # To enable matomo analytics change to `true`.
-websiteDomain = "example.com" # Set the domain name of your website, in most cases same as your base URL this is required.
-matomoDomain = "matomo.example.com" # Set to Matomo domain
-matomoSiteID = "1" # Default is set to 1, change this to the siteid being tracked
-
-#Giscus integration
-[comments.giscus]
-repo = "codidharma/commentsrepo" # Repo where the comments will live
-repo_id = "R_kgDOIAABcg" # Repo where the comments will live
-category = "Announcements" # Repo where the comments will live
-category_id = "DIC_kwDOIAABcs4CRcfN" # Repo where the comments will live
-mapping = "pathname" # How Utterances will match comment to page
-strict = 1
-reactions_enabled = 0
-metadata = 0
-input_position= "top"
-theme = "preferred_color_scheme"
-label = "comment" # Label applied to issue by utteranc.es bot
-lang = "en"
-
-# Custom CDN Javascript embeddings
-[[cdnJS.items]]
-  url="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+######################## sidebar widgets #########################
+[widgets]
+sidebar = ["categories", "tags"]
 
 
-[portfolio]
-bannerLocation = "images/about/portfolioimage.jpeg"
+# google map
+[google_map]
+enable = false
+map_api_key = "AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
 
-[talks]
-bannerLocation = "images/talks/banner.jpg"
 
+# Subscription
+[subscription]
+enable = false
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074"
