@@ -59,4 +59,4 @@ I am an experienced pro-code and low-code cloud solutions architect with more th
 
 <h3 align="center">My Clifton 34 Report</h3>
 <img align="center" height="1100em" src="/images/portfolio/clifton34.png" />
-<a href="https://www.gallup.com/cliftonstrengths/en/253715/34-cliftonstrengths-themes.aspx" target="_blank" rel="nofollow">Read about Clifton 34 themes</a>
+
