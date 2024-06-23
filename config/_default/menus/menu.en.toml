@@ -12,10 +12,9 @@
   weight = -108
 
 [[main]]
-  name = "Who Am I?"
+  name = "About"
   url = "portfolio/"
   weight = -107
-
 
 
 

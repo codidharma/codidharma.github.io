@@ -5,7 +5,7 @@ enableSearch = true
 twitter = "@janedoe"
 largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
 
-introDescription = "Experienced pro-code and low-code cloud solutions architect with more than a decade of expertise in building lines of business services and systems integration across insurance and banking verticals. Technology Nerd with a penchant for public speaking."
+#introDescription = "Experienced pro-code and low-code cloud solutions architect with more than a decade of expertise in building lines of business services and systems integration across insurance and banking verticals. Technology Nerd with a penchant for public speaking."
 introURL = false # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 # keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
@@ -47,7 +47,7 @@ fontsDir = "fonts/" # without a leading forward slash
 fallBackOgImage = "images/thumbnail.png"
 
 # Logo image
-logo = "logos/logo.png"
+logo = "logos/2.png"
 
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.
