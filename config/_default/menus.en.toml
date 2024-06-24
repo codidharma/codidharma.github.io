@@ -38,5 +38,5 @@ weight = 2
 
 [[footer]]
 name = "Privacy Policy"
-pageRef = "/privacy-policy"
+url = "https://policies.google.com/privacy"
 weight = 3
