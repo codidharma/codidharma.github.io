@@ -1,0 +1,39 @@
+<!--Newsletter-->
+{{ with .Params.newsletter }}
+<section class="section-sm bg-gradient">
+ <div class="container">
+   <div class = "row items-center justify-inbetween">
+     <div class="mb:md-0 md:order-1 md:col-5 mb-6">
+       {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" ) }}
+     </div>
+     <div class="md:order-2 md:col-7 lg:col-6">
+       <h2 class="mb-4">
+         Subscribe to newsletter
+       </h2>
+       <p class="mb-8 text-lg">
+         {{ .content | markdownify }}
+       </p>
+       <form action="{{ .newsletter_form_action }}" method="POST" target="_blank">
+         <div class="mb-6">
+         <div class="mb-6">
+           <label for="email" class="form-label">
+             Your Email <span class="text-red-500">*</span>
+           </label>
+           <input
+             id="email"
+             name="email"
+             class="form-input"
+             placeholder="john.doe@email.com"
+             type="email" />
+         </div>
+         <button type="submit" class="btn btn-primary">Subscribe</button>
+       </form>
+       <div class="pt-4">
+         <p>We respect your privacy. Unsubscribe at any time.</p>
+       </div>
+         
+     </div>
+   </div>
+ </div>
+</section>
+{{end}}

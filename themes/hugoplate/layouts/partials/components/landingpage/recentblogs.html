@@ -1,0 +1,20 @@
+
+<section class="section bg-gradient">
+    <div class="container">
+        <div class="row justify-center">
+            <h1 class="mb-4 text-h3 lg:text-h1 text-center">
+                Recent Blog Posts
+            </h1>
+            <!-- blog posts -->
+            <div class="lg:col-8">
+                <div class="row">
+                    {{range ( where .Site.RegularPages "Type" "blog" | first .Params.recentblogs.numberOfEntries)}}
+                    <div class="md:col-6 mb-14">
+                        {{ partial "components/blog-card" . }}
+                    </div>
+                    {{end}}
+                </div>
+
+            </div>
+        </div>
+</section>
