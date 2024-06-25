@@ -27,16 +27,26 @@ pageRef = "/contact"
 
 # footer menu
 [[footer]]
-name = "About"
-pageRef = "/about"
+name = "Home"
+pageRef = "/"
 weight = 1
 
 [[footer]]
-name = "Elements"
-pageRef = "/elements"
+name = "Blog"
+pageRef = "/blog"
 weight = 2
+
+[[footer]]
+name = "About"
+pageRef = "/about"
+weight = 3
+
+[[footer]]
+weight = 4
+name = "Contact"
+pageRef = "/contact"
 
 [[footer]]
 name = "Privacy Policy"
 url = "https://policies.google.com/privacy"
-weight = 3
+weight = 5
