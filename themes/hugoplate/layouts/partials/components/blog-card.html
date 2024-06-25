@@ -29,6 +29,16 @@
         {{ end }}
       </li>
     </ul>
+    <ul class="mb-4">
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-calendar mr-2"></i>
+        {{ time.Format ":date_long" .PublishDate }}
+      </li>
+      <li class="mr-4 inline-block">
+        <i class="fa-regular fa-clock mr-2"></i>
+        {{ math.Round (div (countwords .Content) 100) }} min read
+      </li>
+    </ul>
   {{ end }}
   <p class="mb-6">{{ .Summary }}</p>
   <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">

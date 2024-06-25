@@ -36,8 +36,12 @@
               </li>
             {{ end }}
             <li class="mr-4 inline-block">
-              <i class="fa-regular fa-clock mr-2"></i>
+              <i class="fa-regular fa-calendar mr-2"></i>
               {{ time.Format ":date_long" .PublishDate }}
+            </li>
+            <li class="mr-4 inline-block">
+              <i class="fa-regular fa-clock mr-2"></i>
+              {{ math.Round (div (countwords .Content) 100) }} min read
             </li>
           </ul>
           <div class="content mb-10">
