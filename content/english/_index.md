@@ -11,7 +11,7 @@ banner:
 
 newsletter:
   image: "/images/newsletter.jpeg"
-  newsletter_form_action: "https://app.convertkit.com/forms/6751841/subscriptions"
+  newsletter_form_action: "https://app.convertkit.com/forms/6753091/subscriptions"
   header: "Subscribe to Codidharma's Weekly Newsletter"
   # content: "What you will get?"
   bulletpoints:

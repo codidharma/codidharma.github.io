@@ -127,5 +127,5 @@ label = "comment" # Label applied to issue by utteranc.es bot
 lang = "en"
 
 [newsletterbottom]
-newsletter_form_action = "https://app.convertkit.com/forms/6751841/subscriptions"
+newsletter_form_action = "https://app.convertkit.com/forms/6753091/subscriptions"
 header = "Subscribe to Codidharma's Weekly Newsletter"
