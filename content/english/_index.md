@@ -9,6 +9,10 @@ banner:
     label: "Know more about me"
     link: "/about"
 
+newsletter:
+  image: "/images/Designer.jpeg"
+  newsletter_form_action: "https://app.convertkit.com/forms/6751841/subscriptions"
+
 recentblogs:
   numberOfEntries: 4
 
