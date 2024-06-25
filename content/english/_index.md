@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Welcome, I am Mandar, aka Codidharma, a Engineering Manager, Achitect and Developer"
+  title: "I am Mandar, a Solution Achitect and a Software Engineer"
   content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
   image: "/images/Designer.jpeg"
   button:
@@ -10,8 +10,16 @@ banner:
     link: "/about"
 
 newsletter:
-  image: "/images/Designer.jpeg"
+  image: "/images/newsletter.jpeg"
   newsletter_form_action: "https://app.convertkit.com/forms/6751841/subscriptions"
+  header: "Subscribe to Codidharma's Weekly Newsletter"
+  # content: "What you will get?"
+  bulletpoints:
+    - "Deep dive articles on .Net."
+    - "One actionable tip to improve code."
+    - "Recommendations on great blogs I have read in the week."
+    - "Recommendations on books I am reading."
+  unsubscribe_message: "We respect your privacy. Unsubscribe at any time."
 
 recentblogs:
   numberOfEntries: 4

@@ -3,13 +3,24 @@
 <section class="section-sm bg-gradient">
  <div class="container">
    <div class = "row items-center justify-inbetween">
-     <div class="mb:md-0 md:order-1 md:col-5 mb-6">
+     <div class="mb:md-0 md:order-2 md:col-5 mb-6">
        {{ partial "image" (dict "Src" .image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" ) }}
      </div>
-     <div class="md:order-2 md:col-7 lg:col-6">
+     <div class="md:order-1 md:col-7 lg:col-6">
        <h2 class="mb-4">
-         Subscribe to newsletter
+         {{.header}}
        </h2>
+       <p class="mb-8 text-lg">
+        {{ .content | markdownify }}
+      </p>
+       <ul>
+        {{ range .bulletpoints }}
+          <li class="relative mb-4 pl-6">
+            <i class="fa fa-check absolute left-0 top-1.5"></i>
+            {{ . | markdownify }}
+          </li>
+        {{ end }}
+      </ul>
        <p class="mb-8 text-lg">
          {{ .content | markdownify }}
        </p>
@@ -29,7 +40,7 @@
          <button type="submit" class="btn btn-primary">Subscribe</button>
        </form>
        <div class="pt-4">
-         <p>We respect your privacy. Unsubscribe at any time.</p>
+         <p>{{ .unsubscribe_message }}</p>
        </div>
          
      </div>
