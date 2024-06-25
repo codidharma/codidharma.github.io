@@ -66,10 +66,16 @@
                 </ul>
               </div>
             {{ end }}
+            
             <div class="lg:col-4 flex items-center">
               {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" (T "share") "Whatsapp" false "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false) }}
             </div>
           </div>
+
+          <!--Newletter-->
+          {{partial "components/newsletterpagebottom" . }}  
+          <!--/Newletter-->
+
           <!-- comments -->
           {{ if site.Params.comments.giscus }}
             <div class="mt-20">

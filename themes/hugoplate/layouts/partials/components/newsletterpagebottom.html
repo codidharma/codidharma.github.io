@@ -1,0 +1,22 @@
+
+
+<div class="mt-20">
+    <h2 class="mb-4">
+        {{ site.Params.newsletterbottom.header }}
+    </h2>
+    <form action="{{ .Site.Params.newsletterbottom.newsletter_form_action }}" method="POST" target="_blank">
+      <div class="mb-6">
+      <div class="mb-6">
+        <label for="email" class="form-label">
+          Your Email <span class="text-red-500">*</span>
+        </label>
+        <input
+          id="email"
+          name="email"
+          class="form-input"
+          placeholder="john.doe@email.com"
+          type="email" />
+      </div>
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+  </div>
