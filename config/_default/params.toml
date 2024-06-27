@@ -62,8 +62,8 @@ content = "I am working on setting up the website. Stay tuned for new look and u
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
+keywords = ["Software Architecture", "Software Engineering", "Software Design"]
+description = "Welcome to Codidharma. Here, you can find deep dive write ups on software engineering, design, .Net and C#."
 author = "Codidharma"
 image = "images/Designer.jpeg"
 
