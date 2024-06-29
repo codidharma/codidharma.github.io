@@ -1,9 +1,13 @@
 ---
-title: "Hey, I am John Doe!"
+title: "Hey, I am Mandar Dharmadhikari aka 'Codidharma'"
 meta_title: "About"
 description: "this is meta description"
-image: "/images/avatar.png"
+image: "/images/about/portfolioimage.jpeg"
 draft: false
+button:
+      enable: true
+      label: "Lets Connect on Linkedin"
+      link: "https://www.linkedin.com/in/mandar-dharmadhikari/"
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+I have been programming, designing and architecting applications for over a decade. I specialize in architecting highly scalable distributed systems and in low code - no code applications. I love to share my knowledge with others to help them get to their goals faster.Over the years I have written many articles on Mircrosoft's technet wiki and have done public presentations for community events and meetups in the past.
