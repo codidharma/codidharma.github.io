@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "I am Mandar, a Solution Achitect and a Software Engineer"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  content: "I'm a seasoned architect with over a decade of experience specializing in building highly scalable distributed systems and low-code/no-code applications."
   image: "/images/Designer.jpeg"
   button:
     enable: true

@@ -7,7 +7,7 @@
          <h1 class="mb-4 text-h3 lg:text-h1">
            {{ .title | markdownify }}
          </h1>
-         <div class="col-12">
+         <div class="col-12 mb-2">
            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[600px]" "DisplayXL" "600x" ) }}
          </div>
          <p class="mb-8">

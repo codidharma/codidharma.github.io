@@ -1,5 +1,5 @@
 ---
-title: "Hi, I am Mandar Dharmadhikari aka 'Codidharma'"
+title: "Mandar Dharmadhikari aka 'Codidharma'"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/about/portfolioimage.jpeg"
