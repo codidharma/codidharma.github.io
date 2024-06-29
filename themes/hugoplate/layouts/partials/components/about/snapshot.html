@@ -1,19 +1,30 @@
 <section class="section-sm">
     <div class="container">  
+      <h2 class="mb-6 text-center">
+        {{ .Title | markdownify }}
+      </h2>
       <div class="row  justify-between">
         <div class="mb:md-0 md:order-2 md:col-5 mb-6">
-          {{ partial "image" (dict "Src" .Params.image "Alt" "feature image" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x") }}
+          {{ partial "image" (dict "Src" .Params.image "Alt" "aboutmeimage" "DisplayXL" "520x" "DisplayLG" "425x" "DisplayMD" "360x" "Class" "height:100%") }}
         </div>
         <div class="md:order-1 md:col-7 lg:col-6">
-          <h2 class="mb-8 text-center">
-            {{ .Title | markdownify }}
-          </h2>
-          <p class="mb-8 text-lg">
+          <p class="mb-3 text-lg">
             {{ .Content | markdownify }}
           </p>
+          {{with .Params.enjoy}}
+            <h4 class="mb-1">{{.title}}</h4>
+            <ul>
+              {{range .bulletpoints}}
+              <li class="relative mb-1 pl-6">
+                <i class="fa-solid fa-heart absolute left-0 top-1.5"></i>
+                {{ .title | markdownify }}
+              </li>
+              {{end}}
+            </ul>
+          {{end}}
           {{ with .Params.button }}
           {{ if .enable }}
-            <a class="btn btn-primary mt-6" href="{{ .link | absURL }}">
+            <a class="btn btn-primary mt-4" href="{{ .link | absURL }}">
               {{ .label }}
               <i class="fa-brands fa-linkedin pl-2"></i>
             </a>

@@ -1,17 +1,24 @@
 ---
-title: "Hey, I am Mandar Dharmadhikari aka 'Codidharma'"
+title: "Hi, I am Mandar Dharmadhikari aka 'Codidharma'"
 meta_title: "About"
 description: "this is meta description"
 image: "/images/about/portfolioimage.jpeg"
 draft: false
 button:
       enable: true
-      label: "Lets Connect on Linkedin"
+      label: "Let's Connect"
       link: "https://www.linkedin.com/in/mandar-dharmadhikari/"
+
+enjoy:
+ title: "I,"
+ bulletpoints:
+ - title: Pragmatic test driven development
+ - title: Reading software design, science fiction, epic fantasy and finance books
+ - title: Cooking
 
 techstack:
  enable: true
- heading: "Technologies and Frameworks"
+ heading: "Technologies and Frameworks I Use"
  technologies:
  - title: "C#"
    image: /images/about/techstack/csharp.svg
@@ -23,6 +30,8 @@ techstack:
    image: "/images/about/techstack/api.svg"
  - title: "SQL"
    image: "/images/about/techstack/sql.svg"
+ - title: "Redis"
+   image: "/images/about/techstack/redis.svg"
  - title: ".Net"
    image: "/images/about/techstack/dotnet.svg"
  - title: "Hugo"
@@ -37,5 +46,7 @@ techstack:
    image: "/images/about/techstack/powerplatform.svg"
 ---
 
-I have been programming, designing and architecting applications for over a decade. I specialize in architecting highly scalable distributed systems and in low code - no code applications. I love to share my knowledge with others to help them get to their goals faster.Over the years I have written many articles on Mircrosoft's technet wiki and have done public presentations for community events and meetups in the past.
+With over a decade of experience in programming, designing, and architecting applications, I specialize in crafting highly scalable distributed systems and leveraging pro-code/low-code/no-code solutions.
+
+Throughout my career, I have contributed numerous articles to Microsoft's Technet Wiki and have delivered engaging presentations at community events and meetups. I am dedicated to empowering fellow developers through insightful knowledge sharing
 
