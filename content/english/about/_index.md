@@ -19,31 +19,35 @@ enjoy:
 techstack:
  enable: true
  heading: "Technologies and Frameworks I Use"
+ headinglearning: "Technologies and Frameworks I am learning"
  technologies:
  - title: "C#"
    image: /images/about/techstack/csharp.svg
- - title: "Python"
-   image: /images/about/techstack/python.svg
- - title: "Rust"
-   image: /images/about/techstack/rust.svg
+
  - title: "API"
    image: "/images/about/techstack/api.svg"
  - title: "SQL"
    image: "/images/about/techstack/sql.svg"
- - title: "Redis"
-   image: "/images/about/techstack/redis.svg"
  - title: ".Net"
    image: "/images/about/techstack/dotnet.svg"
  - title: "Hugo"
    image: "/images/about/techstack/hugo.svg"
  - title: "Git"
    image: "/images/about/techstack/git.svg"
- - title: "Docker"
-   image: "/images/about/techstack/docker.svg"
  - title: "Azure"
    image: "/images/about/techstack/azure.svg"
  - title: "Power Platform"
    image: "/images/about/techstack/powerplatform.svg"
+
+ technologieslearning:
+ - title: "Python"
+   image: /images/about/techstack/python.svg
+ - title: "Rust"
+   image: /images/about/techstack/rust.svg
+ - title: "Redis"
+   image: "/images/about/techstack/redis.svg"
+ - title: "Docker"
+   image: "/images/about/techstack/docker.svg"
 ---
 
 With over a decade of experience in programming, designing, and architecting applications, I specialize in crafting highly scalable distributed systems and leveraging pro-code/low-code/no-code solutions.

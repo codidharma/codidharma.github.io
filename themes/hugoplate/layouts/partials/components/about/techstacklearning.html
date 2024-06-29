@@ -1,0 +1,31 @@
+{{with .Params.techstack}}
+{{if .enable}}
+<section class="section-sm bg-gradient">
+    <div class="container">
+        <div class="row text-center">
+            <h3 class="mb-4">{{.headinglearning}}</h2>
+        </div>
+        <div class="row justify-center">
+            <div class="lg:col-8">
+                <div class="row">
+                    {{ range $e:= .technologieslearning }}
+                    <div class="md:col-6">
+                        <div class="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-body dark:bg-darkmode-body">
+                            <div class="flex items-center justify-center h-[45px] min-w-[45px] hover:-rotate-12 bg-amber-500/10  text-amber-500 group-hover:text-white text-center rounded-xl me-5 transition-all duration-200">
+                                <!-- <img src="{{.image | relURL}}" class="fill-blue-700 w-[45px] h-[45px]" alt="{{.title}}"> -->
+                                {{ partial "image" (dict "Src" .image "Alt" "{{.title}}" "Loading" "eager" "Class" "fill-blue-700 w-[45px] h-[45px]" ) }}
+                            </div>
+                            <div class="flex-1">
+                                <h4 class="mb-0">{{.title}}</h4>
+                            </div>
+                        </div>
+                    </div>
+                    {{end}}
+                </div>
+            </div>
+
+        </div>
+    </div>    
+</section>
+{{end}}
+{{end}}
