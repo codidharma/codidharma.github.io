@@ -29,6 +29,12 @@ custom_script = ""
 # copyright
 copyright = "CODIDHARMA - SOFTWARE ARCHITECTURE & DESIGN. All Rights Reserved"
 
+#author
+author = "Mandar Codidharma Dharmadhikar"
+
+# Organization
+organization = "Codidharma"
+
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
@@ -129,3 +135,6 @@ lang = "en"
 [newsletterbottom]
 newsletter_form_action = "https://app.convertkit.com/forms/6753091/subscriptions"
 header = "Subscribe to Codidharma's Weekly Newsletter"
+
+[schemaorg]
+author = "Mandar Codidharma Dharmadhikari"
