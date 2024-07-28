@@ -175,5 +175,5 @@ lazy = true
 
 [taxonomies]
 series = "series"
-category= "categories"
+categories= "categories"
 tag = "tags"
