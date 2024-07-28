@@ -1,7 +1,7 @@
 #################### default parameters ################################
-# favicon module: https://github.com/gethugothemes/hugo-modules/tree/master/images#favicon-implementation
+# favicon module: https://github.com/codidharma/hugo-modules/tree/master/images#favicon-implementation
 favicon = "images/Designer.jpeg"
-# logo module: https://github.com/gethugothemes/hugo-modules/tree/master/images#logo-implementation
+# logo module: https://github.com/codidharma/hugo-modules/tree/master/images#logo-implementation
 logo = "images/logo.png"
 logo_darkmode = "images/logo-darkmode.png"
 # use `px` or `x` with logo_width, example: "100px".
@@ -36,7 +36,7 @@ author = "Mandar Codidharma Dharmadhikar"
 organization = "Codidharma"
 
 # Preloader
-# preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
+# preloader module: https://github.com/codidharma/hugo-modules/tree/master/components/preloader
 [preloader]
 enable = false
 preloader = "" # use jpg, png, svg or gif format.
@@ -48,7 +48,7 @@ label = "get a quote"
 link = "contact"
 
 # search
-# search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
+# search module: https://github.com/codidharma/hugo-modules/tree/master/search
 [search]
 enable = false
 primary_color = "#121212"
@@ -59,14 +59,14 @@ show_tags = true
 show_categories = true
 
 # announcement
-# announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
+# announcement module: https://github.com/codidharma/hugo-modules/tree/master/components/announcement
 [announcement]
 enable = true
 expire_days = 30
 content = "I am working on setting up the website. Stay tuned for new look and updates."
 
 # seo meta data for OpenGraph / Twitter Card
-# seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
+# seo module: https://github.com/codidharma/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
 keywords = ["Software Architecture", "Software Engineering", "Software Design"]
 description = "Welcome to Codidharma. Here, you can find deep dive write ups on software engineering, design, .Net and C#."
@@ -75,7 +75,7 @@ image = "images/Designer.jpeg"
 
 
 # site verifications
-# verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications
+# verification module: https://github.com/codidharma/hugo-modules/tree/master/seo-tools/site-verifications
 [site_verification]
 google = ""   # Your verification code
 bing = ""     # Your verification code
@@ -84,7 +84,7 @@ facebook = "" # Your verification code
 mastodon = "" # Your verification code
 
 # cookies
-# cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
+# cookies module: https://github.com/codidharma/hugo-modules/tree/master/components/cookie-consent
 [cookies]
 enable = true
 expire_days = 60
