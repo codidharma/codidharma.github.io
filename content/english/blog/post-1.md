@@ -5,6 +5,7 @@ description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "/images/image-placeholder.png"
 categories: ["Application", "Data"]
+series: ["Application"]
 author: "Mandar Dharmadhikari"
 tags: ["nextjs", "tailwind"]
 draft: false

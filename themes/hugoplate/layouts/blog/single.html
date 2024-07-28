@@ -45,6 +45,8 @@
             </li>
           </ul>
           <div class="content mb-10">
+            {{partial "components/series.html" .}}
+            <h2>Table of contents</h2>
             {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}
             {{ .Content }}
           </div>
