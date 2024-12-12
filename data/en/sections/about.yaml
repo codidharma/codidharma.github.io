@@ -1,0 +1,67 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Software Architect
+# your company information
+company:
+  name: Accenture In India
+  url: "https://www.accenture.com/in-en"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/MandarDharmadhikariResume.pdf"
+
+# a summary about you
+summary: 'Experienced pro-code and low-code cloud solutions architect with more than a decade of expertise in building lines of business services and systems integration across insurance and banking verticals. Technology Nerd with a penchant for public speaking. I enjoy marrying business needs with appropriate technologies to deliver business value. I also enjoy mentoring colleagues and have managed small and medium-sized teams.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "codidharma@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/codidharma"
+
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "mandar-dharmadhikari"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "codidharma"
+
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: soft-skill-indicator
+  name: Software Architecture
+  percentage: 85
+  color: blue
+
+- type: soft-skill-indicator
+  name: Software Development
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: People Management
+  percentage: 55
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"

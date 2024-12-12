@@ -1,0 +1,22 @@
+# Copyright Notice
+copyright: © Codidharma. All rights reserved.
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Portfolio of Mandar Dharmadhikari.
+
+customMenus:
+- name: Newsletter
+  url: https://codidharma.substack.com/
+  # specify whether to hide the menu item from top navbar or not.
+  hideFromNavbar: false
+  # specify whether to show the menu item in footer or not.
+  # if you set it to true, make sure you have set `footer.navigation.customMenus: true` in your config.yaml
+  showOnFooter: true
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Codidharma's Portfolio
+  type: website
+  description: PPortfolio of Mandar Dharmadhikari.
+  image: images/author/mandardharmadhikari.png
+  url: https://codidharma.github.io
