@@ -1,0 +1,23 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+degrees:
+- name: Bachelor of Engineering
+  icon: fa-solid fa-school
+  timeframe: 2008-2012
+  institution:
+    name: Shre Sant Gajanan Maharaj College of Engineering
+    url: "https://www.ssgmce.ac.in/"
+    logo: /images/education/college.png # Path of the logo image
+    darkLogo: /images/education/college-dark.png #(optional), Can optionally show a different logo for dark theme
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.7
+    outOf: 5
