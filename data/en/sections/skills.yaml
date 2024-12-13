@@ -1,0 +1,82 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Programming
+  filter: "programming"
+- name: Software Architecture
+  filter: "sa"
+- name: People Management
+  filter: "pa"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: .Net Development
+  logo: /images/sections/skills/dotnet.svg
+  summary: "Using as the main framework for professional development. Capable of writing scalable, testable, and maintainable services."
+  categories: ["programming"]
+  url: "https://dotnet.microsoft.com/"
+
+- name: Python Development
+  logo: /images/sections/skills/python.svg
+  summary: "Using as the main framework for scripting and fast prototyping. Capable of writing scalable, testable, and maintainable services."
+  categories: ["programming"]
+  url: "https://www.python.org/"
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Have worked with GITHUB and Azure Devops."
+  categories: ["programming"]
+  url: "https://git-scm.com/"
+
+- name: Cloud Computing
+  logo: /images/sections/skills/azure.svg
+  summary: "Experienced in building distributed and mission critical workloads with Azure components. Experienced in working with Integration Services, Serverless Technologies."
+  categories: ["programming"]
+  url: "https://azure.microsoft.com/"
+
+- name: Low Code Development
+  logo: /images/sections/skills/powerplatform.svg
+  summary: "Experienced in building low code/ no code workflows and applications using Microsoft Power Platform and D365 Customer Engagement for enterprises of all sizes."
+  categories: ["programming"]
+  url: "https://www.microsoft.com/en-in/power-platform"
+
+- name: Systems Design
+  logo: /images/sections/skills/systemsdesign.png
+  summary: "Experienced in building low code/ no code workflows and applications using Microsoft Power Platform and D365 Customer Engagement for enterprises of all sizes."
+  categories: ["sa"]
+
+- name: Data Structures and Algorithms
+  logo: /images/sections/skills/algorithms.png
+  summary: "Experienced in building low code/ no code workflows and applications using Microsoft Power Platform and D365 Customer Engagement for enterprises of all sizes."
+  categories: ["sa"]
+
+- name: Excellent Communication
+  logo: /images/sections/skills/conversation.png
+  summary: "Excellent written and oral communication with ability to convey messages in a lucid manner."
+  categories: ["sa"]
+
+- name: Stakeholder Management
+  logo: /images/sections/skills/stakeholdermanagement.png
+  summary: "Experienced in working with senior leadership of project and company. Experienced in conveying technical decisions with clarity and intent."
+  categories: ["sa"]
+
+- name: People Management
+  logo: /images/sections/skills/team-management.png
+  summary: "Experienced in managing small two pizza team."
+  categories: ["pa"]
+
+
+
