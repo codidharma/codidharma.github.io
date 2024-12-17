@@ -1,0 +1,112 @@
+section:
+  name: Experiences # Titre de la section (par défaut: "" )
+  id: experiences # url id/slug of section *Required*
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Accenture In India.
+    url: "https://www.accenture.com/in-en"
+    location: Pune, India
+    # logo: /images/experiences/company.png
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Accenture plc is a global multinational professional services company originating in the United States and headquartered in Dublin, Ireland, that specializes in information technology (IT) services and management consulting
+  positions:
+  - designation: Business Architecture Manager
+    start: May 2022
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Architect the high level software solutions for BFSI sector
+    - Design and develop low level pro code and low code solutions for BFSI sector
+    - Develop cloud native and hybrid integration solutions
+    - Manage one two pizza team of integration developers
+
+  - designation: Business Architecture Associate Manager
+    start: Jan 2021
+    end: April 2022
+    responsibilities:
+    - Design and develop low level pro code and low code solutions for BFSI sector
+    - Develop cloud native and hybrid integration solutions
+    - Manage one two pizza team of integration developers
+
+- company:
+    name: Chamonix Consulting Pty Ltd
+    url: "https://chamonix.com.au/"
+    location: Adelaide, Austalia
+    # logo: /images/experiences/company.png
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Chamonix IT empowers businesses to excel through transformative IT services. With over a decade of experience across various industries, serving both enterprise and government organisations, Chamonix IT delivers tailored solutions that ensure long-term success.
+  positions:
+  - designation: Technical Consultant
+    start: Dec 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Worked as individual contributor to deliver cloud native and hybrid integration solutions for insurance and government clients
+    - Worked as technical business analyst for an insurance client to analyze the API landscape and help in modernization
+
+- company:
+    name: Mphasis Ltd
+    url: "https://www.mphasis.com/home.html"
+    location: Pune, India & Adelaide, Austalia
+    # logo: /images/experiences/company.png
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Mphasis Limited is an Indian multinational information technology service and consulting company based in Bangalore. The company provides infrastructure technology and applications outsourcing services, as well as architecture guidance, application development and integration, and application management services.
+  positions:
+  - designation: Technical Consultant
+    start: Nov 2016
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Nov 2019
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Designed integrations systems which communicated with modern and legacy systems
+    - Worked as a senior software engineer in a client facing role in banking vertical
+    - Was responsible for building Enterprise Level Systems Integrations using Microsoft BizTalk server
+
+- company:
+    name: Atos Sytenl
+    url: "https://atos.net/en/"
+    location: Pune, India
+    # logo: /images/experiences/company.png
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Atos|Syntel is a leading global provider of integrated information technology and knowledge process services.
+  positions:
+  - designation: Systems Administrator
+    start: May 2016
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Nov 2016
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Worked as a Integration System Administrator in healthcare vertical
+    - Was responsible for maintenance of the client BizTalk server systems
+
+- company:
+    name: Tata Consultancy Services
+    url: "https://www.tcs.com/"
+    location: Mumbai, India
+    # logo: /images/experiences/company.png
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    overview: Tata Consultancy Services (TCS) is an Indian multinational technology company specializing in information technology services and consulting.
+  positions:
+  - designation: Systems Administrator
+    start: Dec 2012
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: May 2016
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Worked as a Integration System Administrator in healthcare vertical
+    - Was responsible for building and maintaining systems integrations
+
