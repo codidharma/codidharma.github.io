@@ -155,6 +155,7 @@ giscusLang = "en" # Default: en
 [author]
 name = "Mandar Dharmadhikari"
 #photo = "images/MandarD.jpg" #include this if you would like to show the author photo on the sidebar
+headShot = "images/MandarD.jpg"
 
 [plausible_analytics]
 enable = false                # to enable plausible analytics set to true.
