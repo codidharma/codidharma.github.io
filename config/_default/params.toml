@@ -2,20 +2,20 @@
 enableSearch = true
 
 # socials
-twitter = "@janedoe"
+twitter = "@codidharma"
 largeTwitterCard = false                                                                          # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Technologist, perpetual student, teacher, continual incremental improvement."
+introDescription = "Software Architect, Engineer, Pianist and a Dog Dad."
 # introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
-# description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
-# keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+# description = "Discover expert insights on software engineering, software architecture, and technical leadership. Stay ahead with in-depth articles on .NET, C#, and modern system design best practices." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
+# keywords = ["software engineering", "software architecture", ".Net Programming"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 
 # showShare = false # Uncomment to not show share buttons on each post. Also available in each post's front matter.
 
 # Google analytics Id
-ga_analytics = ""
+ga_analytics = "G-E157N1JNPM"
 
 # Google tag manager
-google_tag_manager_id = ""
+#google_tag_manager_id = "G-E157N1JNPM"
 
 # Baidu analytics Id
 # baidu_analytics = "XXXXXXXX"
@@ -92,8 +92,8 @@ enforceLightMode = false
 # footerLogo = "icons/copy.svg"
 
 # Customize Sidebar Disclaimer Text
-# sidebardisclaimer = true
-# disclaimerText = "The opinions expressed on this site are my own personal opinions and do not represent my employer’s view in any way."
+sidebardisclaimer = true
+disclaimerText = "The opinions expressed on this site are my own personal opinions and do not represent my employer’s view in any way."
 
 # Text for the languages menu.
 languageMenuName = "🌐"
@@ -115,15 +115,15 @@ blogDir = "post"
 # utterancesIssueTerm = "pathname" # Default: pathname
 
 # Enable or disable Giscus comments globally. Default to false.
-# giscus = true
-# giscusRepo = "GHUsername/Repository.Name" # Giscus is enabled when this param is set
-# giscusRepoId = "RepositoryID" # Required for Giscus to work
-# giscusCategory = "Blog"
-# giscusCategoryId = "CategoryID" # Required for Giscus to work
-# giscusMapping = "pathname" # Default: pathname
-# giscusReactionsEnabled = "1" # Default: 1 = true
-# giscusTheme = "dark_protanopia" # Default: dark_dimmed
-# giscusLang = "en" # Default: en
+giscus = true
+giscusRepo = "codidharma/commentsrepo" # Giscus is enabled when this param is set
+giscusRepoId = "R_kgDOIAABcg" # Required for Giscus to work
+giscusCategory = "Blog"
+giscusCategoryId = "DIC_kwDOIAABcs4CRcfN" # Required for Giscus to work
+giscusMapping = "pathname" # Default: pathname
+giscusReactionsEnabled = "1" # Default: 1 = true
+giscusTheme = "dark_protanopia" # Default: dark_dimmed
+giscusLang = "en" # Default: en
 
 
 # Maximum number of recent posts. (default: 8)
@@ -153,8 +153,8 @@ blogDir = "post"
 
 # website author
 [author]
-name = "Jane Doe"
-# photo = "images/jane-doe.png" #include this if you would like to show the author photo on the sidebar
+name = "Mandar Dharmadhikari"
+#photo = "images/MandarD.jpg" #include this if you would like to show the author photo on the sidebar
 
 [plausible_analytics]
 enable = false                # to enable plausible analytics set to true.
