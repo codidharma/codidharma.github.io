@@ -3,7 +3,15 @@
   url = ""
   weight = -110
 
+[[main]]
+  name = "Résumé"
+  url = "resume/"
+  weight = -109
 
+[[main]]
+  name = "About"
+  url = "about/"
+  weight = -108
 
 # Submenus are done this way: parent -> identifier
 #[[main]]
@@ -19,10 +27,7 @@
   #name = "X"
   #url = "https://x.com/codidharma"
 
-[[main]]
-  name = "About"
-  url = "about/"
-  weight = -107
+
 
 # social menu links
 
