@@ -8,8 +8,9 @@ description = "Resume for Mandar Dharmadhikari."
 ## Profile
 
 Hello! :wave:
+![](/images/MandarDBanner.jpg)
 
-I am Mandar Dharmadhikari.I’m a Cloud Solutions Architect with over a decade of experience delivering business-critical systems and integrating complex services across the insurance and banking industries. I specialize in both pro-code and low-code platforms, and I’m passionate about using the right technologies to solve real business problems. I love connecting business needs with technical solutions that drive tangible value. As a tech enthusiast and confident public speaker, I enjoy mentoring others, leading high-performing teams, and continuously learning to stay ahead in a fast-moving industry.
+I am **Mandar Dharmadhikari**. I am a Cloud Solutions Architect with over a decade of experience delivering business-critical systems and integrating complex services across the insurance and banking industries. I specialize in both pro-code and low-code platforms, and I’m passionate about using the right technologies to solve real business problems. I love connecting business needs with technical solutions that drive tangible value. As a tech enthusiast and confident public speaker, I enjoy mentoring others, leading high-performing teams, and continuously learning to stay ahead in a fast-moving industry.
 
 See some of my work on [Github](https://github.com/codidharma). We can connect on [LinkedIn](https://www.linkedin.com/in/mandar-dharmadhikari)
 
