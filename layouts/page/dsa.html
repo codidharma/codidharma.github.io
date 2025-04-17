@@ -1,0 +1,18 @@
+{{- define "main" }}
+{{- $s := .Site.Params }}
+{{- $p := .Params }}
+
+<div class="wrap content">
+  <article class="post_content">
+    {{- $t := .Title }}
+    <h1 style="text-align: center;">Data Structures And Algorithms</h1>
+    <div class="post_body">
+      {{- .Content }}
+    </div>
+
+
+  </article>
+  <h4>Join the newsletter</h4>
+      {{ partial "inlinesubscribe" . }}
+</div>
+{{- end }}
